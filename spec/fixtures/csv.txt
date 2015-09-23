@@ -1,0 +1,4 @@
+Used properly, this can reduce overall project code size considerably."|"EXAMPLE_OpenFormError"|1
+2|"Recordset error: example using local error handling alongside vbWatchdog"|"Use this technique for procedures when you need to clean up variables, such as recordsets even after an error has occured."|"EXAMPLE_RecordsetError"|1
+3|"ChangeProperty: using local error handling to ignore a specific error"|"Use this technique when you need to clean up variables, such as recordsets after an error has occured or when you need to handle a specific error for an individual procedure."|"EXAMPLE_ChangePropertyError"|0
+4|"Try/Catch: example using the new Try/Catch paradigm in vbWatchdog"|"Using this approach, you can greatly simplify your local error handling!"|"EXAMPLE_TryCatch"|0
