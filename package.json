@@ -2,9 +2,10 @@
   "name": "node_mdb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine",
+    "build": "./node_modules/.bin/babel ./index.js -o ./dist/index.js"
   },
   "babel": {
     "stage": 2
