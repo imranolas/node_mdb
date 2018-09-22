@@ -26,7 +26,7 @@ class Mdb {
 	}
 
 	readCSV(table) {
-		return _exec(`mdb-export -D '%F %T' -d '|' ${this.file} ${table}`);
+		return _exec(`mdb-export '%F %T' -d '|' ${this.file} ${table}`);
 	}
 
 	parseCSV(table) {
